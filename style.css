@@ -12,12 +12,12 @@
 
 header{
 	width: 100%;
-	padding: 20px 0;
 	text-align: center;
 }
 
-header.headline{
-
+.headline{
+	width: 100%;
+	padding: 20px 0;
 }
 
 .list{
@@ -29,14 +29,14 @@ header.headline{
 }
 
 .list-item{
-	margin: 20px 0;
+	list-style: none;
+	margin: 0 20px;
 	display: inline-block;
 }
 
 .boxes{
 	width: 800px;
 	margin: 50px auto;
-	float: left;
 }
 
 .box1{
@@ -49,7 +49,7 @@ header.headline{
 .box2{
 	width: 200px;
 	height: 200px;
-	background-color: #cdffd3;
+	background-color: #cbffd3;
 	float: left;
 }
 
@@ -70,7 +70,8 @@ header.headline{
 .box5{
 	width: 200px;
 	height: 200px;
-	background-color: #f3ffd8
+	background-color: #f3ffd8;
+	float: left;
 }
 
 .box6{
@@ -83,7 +84,7 @@ header.headline{
 .box7{
 	width: 200px;
 	height: 200px;
-	background-color: #39ffa5;
+	background-color: #e9ffa5;
 	float: left;
 }
 
