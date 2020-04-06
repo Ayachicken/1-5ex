@@ -4,28 +4,122 @@
 	box-sizing: border-box;
 }
 
-header{
-
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
 }
 
-.headline{
+header{
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+header.headline{
 
 }
 
 .list{
-
+	padding: 15px 0;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .list-item{
-
-}
-
-body{
-
+	margin: 20px 0;
+	display: inline-block;
 }
 
 .boxes{
+	width: 800px;
+	margin: 50px auto;
+	float: left;
+}
 
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	float: left;
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: #cdffd3;
+	float: left;
+}
+
+.box3{
+	width: 200px;
+	height: 200px;
+	background-color: #aeffbd;
+	float:left;
+}
+
+.box4{
+	width: 200px;
+	height: 200px;
+	background-color: #93ffab;
+	float: left;
+}
+
+.box5{
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8
+}
+
+.box6{
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+	float: left;
+}
+
+.box7{
+	width: 200px;
+	height: 200px;
+	background-color: #39ffa5;
+	float: left;
+}
+
+.box8{
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+	float: left;
+}
+
+.box9{
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+	float: left;
+}
+
+.box10{
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	float: left;
+}
+
+.box11{
+	width: 200px;
+	height: 200px;
+	background-color: #a4c6ff;
+	float: left;
+}
+
+.box12{
+	width: 200px;
+	height: 200px;
+	background-color: #8eb8ff;
+	float: left;
 }
 
 footer{
@@ -33,7 +127,7 @@ footer{
 	height: 120px;
 	text-align: center;
 	padding: 50px 0;
-	background-color: lightgrey;
+	background-color: grey;
 }
 
 .footer-text{
